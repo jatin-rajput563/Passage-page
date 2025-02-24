@@ -93,10 +93,6 @@
     max-width: 379px;
 }
 
-.right-0 {
-    right: 0;
-}
-
 .bottom-card {
     bottom: 0;
     right: 31px;
@@ -183,5 +179,24 @@
 
     .pt-13 {
         padding-top: 13px;
+    }
+}
+
+@media (max-width:575.98px) {
+    .bg-img {
+        background-position: center;
+    }
+
+    .lh-56 {
+        line-height: 30px;
+    }
+
+    .bottom-card {
+        bottom: 0;
+        left: 12px;
+    }
+
+    .pt-13 {
+        padding-top: 0;
     }
 }
