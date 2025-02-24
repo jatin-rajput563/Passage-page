@@ -164,9 +164,9 @@
 #backToTop {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 10px;
     display: none;
-    z-index: 1000;
+    z-index: 10;
     background-color: transparent;
     border: none;
 }
