@@ -8,6 +8,7 @@
     --color-white: white;
     --color-grey: #C3C0D4;
     --color-blue: #006EE6;
+    --color-lightgrey: #00060C;
     --color-lightBlack: #293844;
 }
 
@@ -43,8 +44,12 @@
     color: var(--color-lightBlack) !important;
 }
 
+.text-lightgrey {
+    color: var(--color-lightgrey) !important;
+}
+
 @media (max-width:575.98px) {
     :root {
-        ----fs-2xl: 20px;
+        --fs-2xl: 20px;
     }
 }
