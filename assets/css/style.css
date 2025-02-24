@@ -126,6 +126,19 @@
     background-color: var(--color-blue);
 }
 
+/* ----------section-2-------- */
+.mx-w-643 {
+    max-width: 643px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.left-66 {
+    left: 66px;
+}
+
 /* ------------------------------------------ */
 .lh-18 {
     line-height: 18.96px;
