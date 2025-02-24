@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.rubik-font {
+    font-family: "Rubik", sans-serif;
+}
+
+.courser-pointer {
+    cursor: pointer;
+}
+
 .mx-w-1140 {
     max-width: 1140px !important;
 }
@@ -62,6 +72,62 @@
 
 .pr-40 {
     padding-right: 40px;
+}
+
+.mx-w-679 {
+    max-width: 679px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    right: 47% !important;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.mx-w-379 {
+    max-width: 379px;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.bottom-card {
+    bottom: 0;
+    right: 31px;
+}
+
+.talk-btn {
+    width: 122px;
+    border-radius: 90px;
+    padding: 14px 16px 14px 16px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    transition: all 300ms linear;
+}
+
+.talk-btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+}
+
+.scroll-down {
+    width: 40px;
+    height: 121px;
+    border-radius: 108.64px;
+    border: 0.53px solid #FFFFFF33;
+    backdrop-filter: blur(9.492682456970215px);
+    transition: all 200ms linear;
+}
+
+.scroll-down:hover {
+    backdrop-filter: unset;
+    background-color: var(--color-blue);
 }
 
 /* ------------------------------------------ */
