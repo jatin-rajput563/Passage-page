@@ -139,6 +139,44 @@
     left: 66px;
 }
 
+/* ----------section-4-------- */
+.section-4-bg {
+    background-image: url(../image/png/section-4-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.py-93 {
+    padding-top: 93px;
+    padding-bottom: 93px;
+}
+
+.mx-w-558 {
+    max-width: 558px;
+}
+
+.get-btn {
+    max-width: 122;
+    border-radius: 51px;
+    padding: 14px 16px 14px 16px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    transition: all 300ms linear;
+}
+
+.get-btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.right-0 {
+    right: 0;
+}
+
 /* ------------------------------------------ */
 .lh-18 {
     line-height: 18.96px;
