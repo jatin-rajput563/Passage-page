@@ -241,7 +241,7 @@
 }
 
 .blur-box {
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     border: 1px solid #FFFFFF33;
     width: 405px;
     height: 405px;
