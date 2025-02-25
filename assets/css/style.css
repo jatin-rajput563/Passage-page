@@ -188,8 +188,16 @@
     left: 44px;
 }
 
+.left-40 {
+    left: 40%;
+}
+
 .left-145 {
     left: 145px;
+}
+
+.top-55 {
+    top: 55%;
 }
 
 .left-20 {
