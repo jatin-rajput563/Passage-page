@@ -296,6 +296,7 @@
     background-image: url(../image/png/section-4-bg-img.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .py-93 {
@@ -559,6 +560,10 @@
 
     .pt-13 {
         padding-top: 0;
+    }
+
+    .section-4-bg {
+        background-position:right;
     }
 }
 
