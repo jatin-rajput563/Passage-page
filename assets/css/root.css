@@ -50,7 +50,28 @@
 
 @media (max-width:575.98px) {
     :root {
-        --fs-2xl: 20px;
+        --fs-2xl: 32px;
         --fs-lg: 16px;
+    }
+}
+
+@media (max-width:475.98px) {
+    :root {
+        --fs-2xl: 22px;
+        --fs-lg: 16px;
+    }
+}
+
+@media (max-width:991.98px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-xl: 23px;
+    }
+}
+
+@media (max-width:768.98px) {
+    :root {
+        --fs-sm: 14px;
+        --fs-xl: 20px;
     }
 }

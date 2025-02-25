@@ -170,8 +170,7 @@
 .play-svg {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
+    max-width: 71px;
 }
 
 /* ----------section-2-------- */
@@ -289,6 +288,44 @@
 
 .mx-w-324 {
     max-width: 324px;
+}
+
+/* ----------section-3-------- */
+.mx-w-194 {
+    max-width: 194px;
+}
+
+.mx-w-172 {
+    max-width: 172px;
+}
+
+.mx-w-264 {
+    max-width: 264px;
+}
+
+.mx-h-293 {
+    max-height: 293px;
+}
+
+.mx-h-137 {
+    max-height: 137px;
+}
+
+.pt-24 {
+    padding-top: 24px;
+}
+
+.border-30 {
+    border-radius: 30px;
+    border: 2px solid #00060C33;
+}
+
+.pl-24 {
+    padding-left: 24px;
+}
+
+.mx-w-549 {
+    max-width: 549px;
 }
 
 /* ----------section-4-------- */
@@ -451,8 +488,8 @@
     color: var(--color-blue);
 }
 
-.pt-20 {
-    padding-top: 20px;
+.pt-21 {
+    padding-top: 21px !important;
 }
 
 .pt-25 {
@@ -542,6 +579,37 @@
     .top-94 {
         top: 0;
     }
+
+    .center {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .mx-w-270 {
+        max-width: 270px;
+    }
+
+    .talk-btn {
+        padding: 8px 10px 8px 8px;
+    }
+
+    .lh-24 {
+        line-height: 16px;
+    }
+
+    .slick-dots {
+        right: 36.5% !important;
+    }
+
+    .pt-21 {
+        padding-top: 0 !important;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -550,7 +618,7 @@
     }
 
     .lh-56 {
-        line-height: 30px;
+        line-height: 35px;
     }
 
     .bottom-card {
@@ -563,8 +631,21 @@
     }
 
     .section-4-bg {
-        background-position:right;
+        background-position: right;
     }
+
+    .pt-35 {
+        padding-top: 35px;
+    }
+
+    .slick-dots {
+        right: 32.5% !important;
+    }
+
+    .play-svg {
+        left: 44%;
+    }
+
 }
 
 @media (max-width:767.98px) {
@@ -573,5 +654,47 @@
         justify-content: center;
         display: flex;
         margin: auto;
+    }
+
+    .pt-15 {
+        padding-top: 5px !important;
+    }
+
+    .pt-30 {
+        padding-top: 5px;
+    }
+
+    .lh-24 {
+        line-height: 20px;
+    }
+
+    .md-column {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media (max-width:375.98px) {
+    .slick-dots {
+        right: 18.5% !important;
+    }
+}
+
+@media (max-width:475.98px) {
+
+    .lh-56 {
+        line-height: 29px;
+    }
+
+    .mx-w-194 {
+        max-width: 135px;
+    }
+
+    .mx-w-172 {
+        max-width: 140px;
+    }
+
+    .mx-w-264 {
+        max-width: 164px;
     }
 }
