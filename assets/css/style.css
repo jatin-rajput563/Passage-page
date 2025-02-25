@@ -374,6 +374,10 @@
     color: var(--color-blue) !important;
 }
 
+.acc-btn::after {
+    background-image: url(/assets/image/png/accordion-svg.png) !important;
+}
+
 /* ----------section-6-------- */
 .pt-50 {
     padding-top: 50px;
