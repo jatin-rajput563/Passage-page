@@ -749,3 +749,10 @@
         margin-top: 50px;
     }
 }
+
+@media (max-width:1023.98px) {
+
+    .pt-20 {
+        padding-top: 5px !important;
+    }
+}
