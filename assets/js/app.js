@@ -8,7 +8,7 @@ const navbarbtn = () => {
 
 $('.slider-content').slick({
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
     prevArrow: false,

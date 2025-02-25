@@ -20,9 +20,9 @@
 
 <body class="rubik-font">
     <section class="min-vh-100 bg-img position-relative">
-        <nav class="pt-13">
+        <nav class="pt-15 ">
             <div
-                class="d-flex justify-content-between container mx-w-1140 justify-content-center align-items-center py-1">
+                class="d-flex justify-content-between container mx-w-1140 justify-content-center align-items-center">
                 <a href="#">
                     <img src="./assets/image/svg/logo-svg.svg" alt="logo-svg">
                 </a>
@@ -32,14 +32,18 @@
                     <span class="menu-lines" id="rotats2"></span>
                 </div>
                 <ul id="nav-name"
-                    class="d-flex gap-24 list-unstyled py-2 nav-link justify-content-center align-items-center ">
-                    <li class="pt-2"><a class="fs-sm fw-normal lh-18 text-decoration-none nav-tags" href="#">About
-                            us</a></li>
-                    <li class="pt-2"><a class="fs-sm fw-normal lh-18 text-decoration-none nav-tags"
-                            href="#">Products</a></li>
-                    <li class="pt-2 pr-40"><a class="fs-sm fw-normal lh-18 text-decoration-none nav-tags"
-                            href="#">Contact</a></li>
-                    <li class="pt-2">
+                    class="d-flex gap-24 pt-20 list-unstyled nav-link justify-content-center align-items-center ">
+                    <li>
+                        <a class="fs-sm fw-normal lh-18 text-decoration-none nav-tags" href="#">About
+                            us</a>
+                    </li>
+                    <li>
+                        <a class="fs-sm fw-normal lh-18 text-decoration-none nav-tags" href="#">Products</a>
+                    </li>
+                    <li class="pr-40">
+                        <a class="fs-sm fw-normal lh-18 text-decoration-none nav-tags" href="#">Contact</a>
+                    </li>
+                    <li>
                         <button class="nav-btn border-0 fs-sm fw-medium lh-18">Get Started</button>
                     </li>
                 </ul>
@@ -66,6 +70,7 @@
                     </p>
                 </div>
             </div>
+            <img class="position-absolute play-svg" src="./assets/image/png/play-svg.png" alt="play-svg">
             <div class="position-absolute bottom-card d-flex ">
                 <div>
                     <p class="fw-normal fs-sm lh-24 text-white mx-w-379">Eu tincidunt vel orci aliquam vitae nibh tellus
@@ -93,9 +98,12 @@
                 management, and blockchain.</p>
             <div class="row">
                 <div class="col-md-6 col-lg-4">
-                    <div class="position-relative section-2-img-box mt-100">
+                    <div class="position-relative section-2-img-box mt-100 overflow-hidden">
                         <img class="w-100" src="./assets/image/png/section-2-img-1.png" alt="section-2-img-1">
-                        <p class="position-absolute top-0 pt-2 fw-medium fs-xl lh-48 left-66">Passage Protocol</p>
+                        <p class="position-absolute z-1 top-0 pt-2 fw-medium fs-xl lh-48 left-66">Passage Protocol</p>
+                        <p class="position-absolute z-1 section-2-img-box-text bottom- pt-2 fw-medium lh-48 left-66 text-white">Elevating customer experience with Digital Innovation</p>
+                        <div class="blur-box position-absolute top-50"></div>
+                        <button class="talk-btn border-0 fw-medium fs-sm lh-18 mt-2 position-relative bottom-0 z-1">Learn more</button>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -131,8 +139,8 @@
     <section class="pt-130 pb-80 justify-content-center">
         <div class="container mx-w-1140">
             <p class="fw-semibold fs-2xl lh-56 text-center">FAQs</p>
-            <div>
-                <div class="accordion" id="accordionExample">
+            <div class="justify-content-center d-flex">
+                <div class="accordion w-100" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button fw-semibold fs-lg lh-26 popins-font accordion-text"
@@ -270,7 +278,7 @@
     <footer class="bg-black">
         <div class="container mx-w-1140">
             <div class="row">
-                <div class="col-lg-5 col-md-6 md-center">
+                <div class="col-lg-5 col-md-4 md-center">
                     <div class="pt-65">
                         <img src="./assets/image/svg/logo-svg.svg" alt="logo-svg">
                         <p class="fw-normal fs-sm lh-24 text-white mx-w-324 m-0 pt-3">Consectetur rnare consequat
@@ -310,10 +318,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-6 ">
+                <div class="col-lg-7 col-md-8 ">
                     <div class="pt-80 pb-164">
-                        <div class="row">
-                            <div class="col-2 justify-content-end d-flex">
+                        <div class="row justify-content-sm-center">
+                            <div class="col-sm-2 col-4 justify-content-end d-flex">
                                 <ul class="list-unstyled">
                                     <li><a class="text-decoration-none fw-normal fs-sm lh-24 footer-links"
                                             href="#">Products</a></li>
@@ -335,7 +343,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-2 justify-content-end d-flex">
+                            <div class="col-sm-2 col-4 justify-content-end d-flex">
                                 <ul class="list-unstyled">
                                     <li>
                                         <a class="text-decoration-none fw-normal fs-sm lh-24 footer-links"
@@ -352,7 +360,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-2 justify-content-end d-flex">
+                            <div class="col-sm-2 col-4 justify-content-end d-flex">
                                 <ul class="list-unstyled">
                                     <li>
                                         <a class="text-decoration-none fw-normal fs-sm lh-24 footer-links"
@@ -372,7 +380,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-2 justify-content-end d-flex">
+                            <div class="col-sm-2 col-4 justify-content-end d-flex">
                                 <ul class="list-unstyled">
                                     <li>
                                         <a class="text-decoration-none fw-normal fs-sm lh-24 footer-links"
@@ -388,7 +396,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-2 justify-content-end d-flex">
+                            <div class="col-sm-2 col-4 justify-content-end d-flex">
                                 <ul class="list-unstyled">
                                     <li><a class="text-decoration-none fw-normal fs-sm lh-24 footer-links"
                                             href="#">Privacy</a></li>
