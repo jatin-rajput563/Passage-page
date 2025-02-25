@@ -374,9 +374,6 @@
     color: var(--color-blue) !important;
 }
 
-/* .accordion-text:hover {
-    color: var(--color-blue);
-} */
 /* ----------section-6-------- */
 .pt-50 {
     padding-top: 50px;
@@ -387,6 +384,7 @@
     height: 70px;
     border-radius: 50px;
     background: #E6F1FD;
+    transition: all 200ms linear;
 }
 
 .pt-48 {
@@ -398,6 +396,7 @@
     height: 215px;
     border-radius: 10px;
     border: 1px solid #0000001A;
+    transition: all 200ms linear;
 }
 
 .phone-card:hover .phone-circle svg path {
