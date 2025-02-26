@@ -435,7 +435,6 @@
 
 .accordion-body {
     padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
-    padding-bottom: 0 !important;
     padding-top: 0 !important;
 }
 
