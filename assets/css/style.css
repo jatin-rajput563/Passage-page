@@ -9,6 +9,13 @@
     font-family: "Rubik", sans-serif;
 }
 
+.nav-bg {
+    width: 100%;
+    height: 80;
+    border-bottom: 1px solid #FFFFFF33;
+    background: #0000000A;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }
@@ -83,6 +90,22 @@
     background-repeat: no-repeat;
 }
 
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mx-w-1096 {
+    max-width: 1096px !important;
+}
+
+.top-63 {
+    top: 63px;
+}
+
+.mx-w-1104 {
+    max-width: 1104px !important;
+}
+
 .gap-24 {
     gap: 24px;
 }
@@ -105,7 +128,7 @@
 
 .slick-track {
     display: flex !important;
-    gap: 50px !important;
+    gap: 0 !important;
 }
 
 .slick-dots li {
@@ -113,7 +136,15 @@
 }
 
 .slick-dots {
-    right: 42.5% !important;
+    right: 44% !important;
+}
+
+.mr-29 {
+    margin-right: 29px;
+}
+
+.mt-27 {
+    margin-top: 27px;
 }
 
 .slick-dots li {
@@ -565,26 +596,6 @@
 
 @media (max-width:991.98px) {
 
-    .nav-link {
-        display: flex !important;
-        flex-direction: column;
-        backdrop-filter: blur(100px) !important;
-        width: 100%;
-        min-height: 100vh;
-        position: fixed;
-        justify-content: center;
-        bottom: 0;
-        right: -100% !important;
-        top: 0%;
-        transition: all 300ms linear !important;
-        z-index: 3;
-        align-items: center;
-    }
-
-    .show-navbar {
-        right: 0 !important;
-    }
-
     .pr-40 {
         padding-right: 0;
     }
@@ -670,6 +681,34 @@
 }
 
 @media (max-width:767.98px) {
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        backdrop-filter: blur(100px) !important;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
+        z-index: 3;
+        align-items: center;
+    }
+
+    .nav-bg {
+        background: #291C53;
+    }
+
+    .top-63 {
+        top: 59px;
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+
     .md-center {
         text-align: center;
         justify-content: center;
@@ -705,7 +744,7 @@
 
 @media (max-width:375.98px) {
     .slick-dots {
-        right: 18.5% !important;
+        right: 35.5% !important;
     }
 }
 
@@ -744,15 +783,13 @@
     }
 }
 
-@media (max-width:1440.98px) {
-    .mt-100 {
-        margin-top: 50px;
-    }
-}
+@media (min-width: 768px) {
 
-@media (max-width:1023.98px) {
-
-    .pt-20 {
-        padding-top: 5px !important;
+    .nav-bg {
+        width: 100%;
+        height: 80;
+        border-bottom: 1px solid #FFFFFF33;
+        background: #0000000A;
+        backdrop-filter: blur(35px);
     }
 }

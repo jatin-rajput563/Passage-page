@@ -8,7 +8,7 @@ const navbarbtn = () => {
 
 $('.slider-content').slick({
     infinite: true,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
     prevArrow: false,
@@ -17,7 +17,7 @@ $('.slider-content').slick({
 
 let backToTopButton = document.getElementById("backToTop");
 window.onscroll = function () {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
         backToTopButton.style.display = "block";
     } else {
         backToTopButton.style.display = "none";
