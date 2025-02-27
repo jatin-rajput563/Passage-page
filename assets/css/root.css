@@ -75,3 +75,9 @@
         --fs-xl: 20px;
     }
 }
+
+@media (max-width:1100.98px) {
+    :root {
+        --fs-xl: 22px;
+    }
+}

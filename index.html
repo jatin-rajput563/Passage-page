@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body class="rubik-font">
-    <section class="min-vh-100 bg-img position-relative">
+    <section class="min-vh-100 bg-img position-relative overflow-hidden">
         <nav class="nav-bg position-relative">
             <div
                 class="d-flex justify-content-between container mx-w-1140 justify-content-center align-items-center py-3">
@@ -53,12 +53,12 @@
         <img class="position-absolute mx-w-1096 w-100 left-0 top-78" src="./assets/image/png/hero-top-layer.png"
             alt="hero-top-layer">
         <div class="container mx-w-1140">
-            <div class="slider-content mx-w-679 mt-34">
+            <div class="slider-content mx-w-679 mt-34 ">
                 <div>
                     <h1 class="slider-para fw-bold fs-2xl lh-56 text-white mx-w-679">We help leading enterprises use
                         <span class="text-blue">emerging
                             technology</span> to reach their goals faster
-                        </h1>
+                    </h1>
                 </div>
                 <div>
                     <p class="slider-para fw-bold fs-2xl lh-56 text-white mx-w-679">We help leading enterprises use
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <img class="position-absolute play-svg cursor-pointer" src="./assets/image/png/play-svg.png" alt="play-svg">
-            <div class="position-absolute bottom-card d-flex z-1">
+            <div class="position-absolute bottom-card d-flex z-1 animate__animated animate__backInRight">
                 <div class="mr-29 mt-27">
                     <p class="fw-normal fs-sm lh-24 text-white mx-w-379">Eu tincidunt vel orci aliquam vitae nibh tellus
                         tortor mauris pharetra nec senectus egestas enim.</p>
@@ -86,76 +86,114 @@
                     </a>
                     <p class="fw-normal fs-sm lh-24 text-center text-grey pt-2">Scroll Down</p>
                 </div>
-                <button id="backToTop" class="btn btn-primary">
-                    <img src="./assets/image/png/up-arrow.png" alt="up-arrow">
-                </button>
             </div>
+            <button id="backToTop" class="btn btn-primary">
+                <img src="./assets/image/png/up-arrow.png" alt="up-arrow">
+            </button>
             <img class="position-absolute bottom-0 right-0 w-100 mx-w-1104"
                 src="./assets/image/png/hero-bottom-layer.png" alt="hero-bottom-layer">
         </div>
     </section>
     <!-- ===========section-2================ -->
-    <section class="pt-100 pb-130" id="section-2">
-        <div class="container mx-w-1140">
-            <h2 class="fw-semibold fs-2xl lh-56 text-center m-0">Our Innovative Solutions</h2>
-            <p class="fw-normal fs-sm lh-24 mx-w-643 mx-auto text-center m-0 pt-3 opacity-75">Explore our suite of products
-                designed to
-                empower enterprises with cutting-edge technology in AI, data
-                management, and blockchain.</p>
+    <section class="d-flex justify-content-center align-items-center flex-column pb-130">
+        <p class="text-center fw-semibold fs-2xl lh-56 m-0 pb-2 pt-100">Our Innovative Solutions</p>
+        <p class="mx-auto text-sm-center fw-normal fs-sm lh-24 mx-w-643 pb-5">Explore our suite of products designed to empower enterprises with cutting-edge technology in AI, data
+            management, and blockchain.</p>
+        <div class="container max-w-1140">
             <div class="row">
-                <div class="col-md-4 center">
-                    <div class="position-relative section-2-img-box sec-2-box-1 mt-100 overflow-hidden">
-                        <img class="w-100 mx-w-270" src="./assets/image/png/section-2-img-1.png" alt="section-2-img-1">
-                        <p class="top-0 pt-2 fw-medium fs-xl lh-48 left-44 position-absolute">Passage Protocol</p>
-                        <div class="sec-2-box-content position-absolute">
-                            <p class="sec-2-box-text fw-medium fs-sm lh-24 text-white pl-20 mx-w-259 pt-30"> Elevating
-                                customer
-                                experience with Digital Innovation</p>
-                            <p class="d-none box-1-text fs-sm fw-normal lh-24 text-white pl-20 mx-w-324">Add the power
-                                of AI to your data stack. Works with all of your data sources - including traditionally
-                                siloed - including traditionally siloed ones - to give you the most real-time,
-                                comprehensive view into your business.</p>
-                            <p class="bottom-0 hover-head-text pt-2 fw-medium fs-xl lh-48 left-44 position-absolute">
-                                Passage Protocol</p>
-                            <button class="talk-btn border-0 fw-medium fs-sm lh-18 mt-2 ml-20 mb-30">Learn more</button>
+                <div class="col-lg-4 col-12 col-sm-6 mb-4 mx-auto d-flex justify-content-center">
+                    <div class="card-box position-relative">
+                        <div class="d_none">
+                            <h2
+                                class="fw-medium fs-xl lh-48 text-center text-white opacity-15 mb-0 top-10 left-47 position-absolute">
+                                Passage Protocol</h2>
+                            <p
+                                class="fw-medium fs-sm lh-24 text-white max-w-244 position-absolute bottom-97 mb-0 left-20 z-1">
+                                Elevating customer experience with Digital Innovation</p>
+                            <button
+                                class="sect-2-btn fw-medium fs-6 lh-18 position-absolute bottom-20 z-1">Learn
+                                more</button>
                         </div>
-                        <div class="blur-box position-absolute top-55 left-20"></div>
+                        <div class="circle">
+                            <div class="d-none d_block">
+                                <h2 class="font-family-primary fw-medium fs-5 lh-30 text-white pt-30 px-20 mb-12">
+                                    Elevating customer experience with Digital Innovation</h2>
+                                <p class="font-family-primary fs-6 fw-normal lh-24 text-white max-w-324 px-20 mb-30">Add
+                                    the power of AI to your data stack. Works with all of your data sources - including
+                                    traditionally siloed - including
+                                    traditionally siloed ones - to give you the most real-time, comprehensive view into
+                                    your business.</p>
+                                <button class="sect-2-btn fw-medium fs-6 lh-18">Learn
+                                    more</button>
+                                <p
+                                    class="fw-medium fs-xl lh-48 text-center text-white opacity-15 mb-0 position-absolute bottom-20 left-47">
+                                    Passage Protocol</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 center">
-                    <div class="position-relative section-2-img-box sec-2-box-1 mt-100 overflow-hidden">
-                        <img class="w-100 mx-w-270" src="./assets/image/png/section-2-img-2.png" alt="section-2-img-1">
-                        <p class="top-0 pt-2 fw-medium fs-xl lh-48 left-40 position-absolute ">Fuze</p>
-                        <div class="sec-2-box-content position-absolute">
-                            <p class="sec-2-box-text fw-medium fs-md lh-30 text-white pl-20 mx-w-259 pt-30">Unleashing
-                                Data’s Full Potential</p>
-                            <p class="d-none box-1-text fs-sm fw-normal lh-24 text-white pl-20 mx-w-324">Add the power
-                                of AI to your data stack. Works with all of your data sources - including traditionally
-                                siloed - including traditionally siloed ones - to give you the most real-time,
-                                comprehensive view into your business.</p>
-                            <p class="bottom-0 hover-head-text pt-2 fw-medium fs-xl lh-48 left-40 position-absolute">
-                                Fuze</p>
-                            <button class="talk-btn border-0 fw-medium fs-sm lh-18 mt-2 ml-20 mb-30">Learn more</button>
+                <div class="col-lg-4 col-12 col-sm-6 mb-4 mx-auto d-flex justify-content-center">
+                    <div class="card-box-2 position-relative">
+                        <div class="d_none">
+                            <h2
+                                class="fw-medium fs-xl lh-48 text-center text-white opacity-15 mb-0 top-10 left-145 position-absolute">
+                                Fuze</h2>
+                            <p
+                                class="fw-medium fs-md lh-24 text-white max-w-244 position-absolute bottom-97 mb-0 left-20 z-1">
+                                Unleashing Data’s Full Potential</p>
+                            <button
+                                class="sect-2-btn fw-medium fs-6 lh-18 position-absolute bottom-20 z-1">Learn
+                                more</button>
                         </div>
-                        <div class="blur-box position-absolute top-55 left-20"></div>
+                        <div class="circle">
+                            <div class="d-none d_block">
+                                <h2 class="fw-medium fs-md lh-30 text-white pt-30 px-20 mb-12">
+                                    Unleashing Data’s Full Potential</h2>
+                                <p class="fs-sm fw-normal lh-24 text-white max-w-324 px-20 mb-30">Add
+                                    the power of AI to your data stack. Works with all of your data sources - including
+                                    traditionally siloed - including
+                                    traditionally siloed ones - to give you the most real-time, comprehensive view into
+                                    your
+                                    business.</p>
+                                <button class="sect-2-btn fw-medium fs-6 lh-18">Learn
+                                    more</button>
+                                <p
+                                    class="fw-medium fs-xl lh-48 text-center opacity-15 text-white position-absolute bottom-20 left-145">
+                                    Fuze</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 center">
-                    <div class="position-relative section-2-img-box sec-2-box-1 mt-100 overflow-hidden">
-                        <img class="w-100 mx-w-270" src="./assets/image/png/section-2-img-3.png" alt="section-2-img-1">
-                        <p class="top-0 pt-2 fw-medium fs-xl lh-48 left-40 position-absolute opacity-75">GYSR</p>
-                        <div class="sec-2-box-content position-absolute">
-                            <p class="sec-2-box-text fw-medium fs-sm lh-24 text-white pl-20 mx-w-259 pt-30">Trustless
-                                Rewards and Incentives</p>
-                            <p class="d-none box-1-text fs-sm fw-normal lh-24 text-white pl-20 mx-w-324">Add the power
-                                of AI to your data stack. Works with all of your data sources - including traditionally
-                                siloed - including traditionally siloed ones - to give you the most real-time,
-                                comprehensive view into your business.</p>
-                            <p class="bottom-0 hover-head-text pt-2 fw-medium fs-xl lh-48 left-40 position-absolute">
-                                GYSR</p>
-                            <button class="talk-btn border-0 fw-medium fs-sm lh-18 mt-2 ml-20 mb-30">Learn more</button>
+                <div class="col-lg-4 col-12 col-sm-6 mb-4 mx-auto d-flex justify-content-center">
+                    <div class="card-box-3 position-relative">
+                        <div class="d_none">
+                            <h2
+                                class="fw-medium fs-xl lh-48 text-center text-white opacity-15 mb-0 top-10 left-140 position-absolute">
+                                GYSR</h2>
+                            <p
+                                class="fw-medium fs-md lh-24 text-white max-w-244 position-absolute bottom-97 mb-0 left-20 z-1">
+                                Trustless Rewards and <br>Incentives</p>
+                            <button
+                                class="sect-2-btn fw-medium fs-6 lh-18 position-absolute bottom-20 z-1">Learn
+                                more</button>
                         </div>
-                        <div class="blur-box position-absolute top-55 left-20"></div>
+                        <div class="circle position-relative">
+                            <div class="d-none d_block">
+                                <h2 class="font-family-primary fw-medium fs-md lh-30 text-white pt-30 px-20 mb-12">
+                                    Trustless Rewards and Incentives</h2>
+                                <p class="fs-sm fw-normal lh-24 text-white max-w-324 px-20 mb-30">Add
+                                    the power of AI to your data stack. Works with all of your data sources - including
+                                    traditionally siloed - including
+                                    traditionally siloed ones - to give you the most real-time, comprehensive view into
+                                    your
+                                    business.</p>
+                                <button class="sect-2-btn fw-medium fs-6 lh-18">Learn
+                                    more</button>
+                                <p
+                                    class="fw-medium fs-xl lh-48 text-center opacity-15 text-white position-absolute bottom-20 left-140">
+                                    GYSR</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,24 +206,34 @@
                 <div class="col-12 col-md-5 center md-end d-flex">
                     <div class="d-flex">
                         <div class="d-flex flex-column">
-                            <img class="mx-w-194 mx-h-293 img-border" src="./assets/image/png/grid-img-1.png"
-                                alt="grid-img-1">
-                            <img class="mx-w-194 mt-24 img-border" src="./assets/image/png/grid-img-2.png"
-                                alt="grid-img-1">
+                            <div class="grid-item overflow-hidden">
+                                <img class="mx-w-194 mx-h-293 img-border" src="./assets/image/png/grid-img-1.png"
+                                    alt="grid-img-1">
+                            </div>
+                            <div class="grid-item overflow-hidden">
+                                <img class="mx-w-194 mt-24 img-border" src="./assets/image/png/grid-img-2.png"
+                                    alt="grid-img-1">
+                            </div>
                         </div>
                         <div class="d-flex flex-column">
-                            <img class="ml-24 mx-w-172 img-border" src="./assets/image/png/grid-img-1-row-2.png"
-                                alt="grid-img-1-row-2">
-                            <img class="mt-24 ml-24 mx-w-264 img-border" src="./assets/image/png/grid-img-2-row-2.png"
-                                alt="grid-img-1-row-2">
-                            <img class="mt-24 ml-24 mx-w-172 img-border" src="./assets/image/png/grid-img-3-row-2.png"
-                                alt="grid-img-1-row-2">
+                            <div class="grid-item overflow-hidden">
+                                <img class="ml-24 mx-w-172 img-border" src="./assets/image/png/grid-img-1-row-2.png"
+                                    alt="grid-img-1-row-2">
+                            </div>
+                            <div class="grid-item overflow-hidden">
+                                <img class="mt-24 ml-24 mx-w-264 img-border"
+                                    src="./assets/image/png/grid-img-2-row-2.png" alt="grid-img-1-row-2">
+                            </div>
+                            <div class="grid-item overflow-hidden">
+                                <img class="mt-24 ml-24 mx-w-172 img-border"
+                                    src="./assets/image/png/grid-img-3-row-2.png" alt="grid-img-1-row-2">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-7 justify-content-center align-items-center d-flex">
                     <div class="pl-75 pt-36">
-                        <h2 class="fw-semibold fs-2xl lh-56">Our Edge</h2>
+                        <h2 class="fw-semibold fs-2xl lh-56 our-edge-heading">Our Edge</h2>
                         <p class="fst-normal fs-sm lh-24 text-lightgrey opacity-75 mx-w-549">At passage labs, we empower
                             enterprises with next-gen tech innovations. our team, boasting
                             talent from general mills, IBM Watson, and beyond, excels in deploying AI, blockchain, and
