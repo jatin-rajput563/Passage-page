@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .poppins-font {
     font-family: "Poppins", sans-serif;
@@ -9,9 +10,12 @@
     font-family: "Rubik", sans-serif;
 }
 
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
 .nav-bg {
     width: 100%;
-    height: 80;
     border-bottom: 1px solid #FFFFFF33;
     background: #0000000A;
 }
@@ -98,8 +102,8 @@
     max-width: 1096px !important;
 }
 
-.top-63 {
-    top: 63px;
+.top-78 {
+    top: 78px;
 }
 
 .mx-w-1104 {
@@ -245,11 +249,11 @@
 .sec-2-box-content {
     bottom: 0;
     z-index: 10;
-    transition: all 200ms linear;
+    transition: all 500ms linear;
 }
 
 .section-2-img-box {
-    transition: all 200ms linear;
+    transition: all 500ms linear;
     border-radius: 30px;
 }
 
@@ -280,12 +284,14 @@
     height: 405px;
     border-radius: 100%;
     right: 0;
+    transition: all 500ms linear;
 }
 
 .pb-130 {
     padding-bottom: 130px;
 }
 
+/* -------------back-to-top------------- */
 #backToTop {
     position: fixed;
     bottom: 20px;
@@ -295,6 +301,8 @@
     background-color: transparent;
     border: none;
 }
+
+/* -------------back-to-top------------- */
 
 .mt-100 {
     margin-top: 100px;
@@ -410,6 +418,10 @@
     right: 0;
 }
 
+.mx-w-745 {
+    max-width: 745px;
+}
+
 /* ----------section-5-------- */
 .pb-80 {
     padding-bottom: 80px;
@@ -493,6 +505,7 @@
 
 .phone-card:hover {
     box-shadow: 0px 4px 16px 0px #1A2C0014;
+    border: unset !important;
 }
 
 .phone-circle {
@@ -652,6 +665,14 @@
         background-position: center;
     }
 
+    .ml-24 {
+        margin-left: 11px;
+    }
+
+    .mt-24 {
+        margin-top: 11px;
+    }
+
     .lh-56 {
         line-height: 35px;
     }
@@ -704,8 +725,8 @@
         background: #291C53;
     }
 
-    .top-63 {
-        top: 59px;
+    .top-78 {
+        top: 75px;
     }
 
     .show-navbar {
@@ -793,7 +814,6 @@
 
     .nav-bg {
         width: 100%;
-        height: 80;
         border-bottom: 1px solid #FFFFFF33;
         background: #0000000A;
         backdrop-filter: blur(35px);
